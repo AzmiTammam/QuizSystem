@@ -1,0 +1,155 @@
+*{
+    padding:0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+html{
+    background-color: #b85d62;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    border-radius: 1em;
+
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+nav {
+    /*height: 10vh;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* Make the links to the right */
+    padding: 0 15px;
+}
+
+nav .brand a.navbar-brand {
+    cursor: unset;
+    /* Remove the Pointer from LOGO */
+    border: 0;
+    /* Remove the border from LOGO */
+}
+
+nav ul {
+    display: flex;
+    /* Make The links in ul in the same row */
+    list-style: none;
+}
+
+nav ul li {
+    margin-right: 1.2em;
+}
+
+header nav a {
+    color: black !important;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    color: #ffac42 !important;
+    transition: .3s;
+    /*border-bottom: 1px solid #ffac42;*/
+}
+header nav a.active {
+    transition: .3s;
+    font-size: 1.1em;
+    border-radius: 1em;
+    color: #bd5c8f !important;
+}
+
+h2{
+    color: #bd5c8f;
+    margin-top: 2em;
+    margin: auto;
+    text-align: center;
+    
+    
+    font-size: 1.75em;
+    
+}
+.Answers{
+    text-align: center;
+    margin: 1em;
+    max-height: 65vh;
+    overflow: auto;
+    
+}
+.Question{
+  background-color: #b8b5cd;
+    margin: 2em;
+    color:#406a8e;
+    font-size: 1.3em;
+    width: 60%;
+    margin: 20px auto;
+    
+    
+}
+
+
+
+#ans {
+    color:black;
+    background-color: white;
+    font-size: 0.8em;
+    
+}
+footer .social {
+    text-align: center;
+}
+
+footer .social ul {
+    list-style: none;
+    display: inline-block;
+    margin: 0 auto;
+
+}
+
+footer .social ul li {
+    margin-right: 1em;
+    float: left;
+}
+
+footer .social ul li a {
+    color: #bd5c8f;
+}
+
+footer .social ul li i {
+    color: #bd5c8f;
+    font-size: 1.3em;
+    margin-bottom: .5em;
+}
+
+footer .copyright {
+    text-align: center;
+}
+
+footer .copyright p {
+    margin: 0;
+    padding-bottom: 1em;
+    font-size: .8em;
+}
+footer .copyright span {
+    color: #bd5c8f;
+}
+
+@media screen and (max-width: 430px){
+    .Question{
+        width: inherit;
+    }
+    nav ul li{
+        margin: 0;
+    }
+    #ans {
+        
+        font-size: 1em;
+        
+    }
+    .Question{
+        font-size: 1em;
+    }
+    header nav a.active{
+        font-size: 1em;
+    }
+
+}

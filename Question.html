@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="QuizSystem is an intelligent prototype developed as a multiple choice question" />
+    <meta name="keywords" content="QuizSystem, Quiz, Question System">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="icon" href="./assets/images/Logo/icon-title.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/Question.css">
+    <title>Quiz System</title>
+</head>
+
+<body onload="showQuestions(0)">
+    <header class="header" id="header">
+        <nav>
+            <div class="brand">
+                <a class="navbar-brand" style="width: 64px;" href="#">
+                    <img style="width: 90px;margin: 10px 0;" src="./assets/images/Logo/logo grid.png" alt="logo image">
+                </a>
+            </div>
+            <ul>
+                <li><a href="#" class="active">Login</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+        <!-- Question -->
+        <div class="question">
+            <div class="question-Number"></div>
+            <div class="question-Number"></div>
+            <div class="questuion-Text"></div>
+            <div class="option-Question">
+            </div>
+            <div class="NextQustion">
+                <button type="button" id="bttnQ" class="btnQ">Next</button>
+            </div>
+            <!-- <div class="questionDone">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div> -->
+        </div>
+    </main>
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="social">
+                    <ul>
+                        <li><a href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a></li>
+                        <li><a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="https://www.whatsapp.com/" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
+                        <li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+                <div class="copyright">
+                    <p>
+                        All copyrights are reserved to <span>Black Magic</span> company &copy; 2021
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="./js/Question.js"></script>
+
+</html>
